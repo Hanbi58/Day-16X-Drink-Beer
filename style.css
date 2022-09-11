@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: cornflowerblue;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.title {
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+
+.title h3,
+.title h1 {
+  margin: 0;
+}
+
+.cupMain {
+  height: 300px;
+  width: 120px;
+  background-image: linear-gradient(
+    to bottom,
+    white 0%,
+    white 100%,
+    royalblue 0%,
+    royalblue 100%
+  );
+  margin: 1rem 0.5rem;
+  border: 3px solid darkblue;
+  border-radius: 6px 6px 30px 30px;
+}
+.cupHolder {
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.smallCup {
+  font-size: 0.6rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  line-height: 80%;
+  height: 80px;
+  width: 40px;
+  color: darkblue;
+  background-color: #fff;
+  margin: 1rem 0.5rem;
+  border: 3px solid darkblue;
+  border-radius: 2px 2px 12px 12px;
+}
